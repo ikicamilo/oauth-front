@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+X-LIC-LOCATION:America/Bogota
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Bogota:20230925T110000
+DTEND;TZID=America/Bogota:20230925T111500
+DTSTAMP:20230918T170525Z
+ORGANIZER;CN=laura.ramos@oktana.com:mailto:laura.ramos@oktana.com
+UID:fcrd4tak6co3il8tgvu5g2mbkc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=laura.ramos@oktana.com;X-NUM-GUESTS=0:mailto:laura.ramos@oktana.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=ikicamilo@gmail.com;X-NUM-GUESTS=0:mailto:ikicamilo@gmail.com
+X-MICROSOFT-CDO-OWNERAPPTID:573647730
+CREATED:20230918T170523Z
+DESCRIPTION:Event Name: Screening Call\n\nLa llamada se realizara por medio
+  de Phone Call\, me contactare contigo a tu numero de teléfono en el horari
+ o asignado\, se que de pronto no haya un día cercano\, sin embargo agenda p
+ ara vernos el día de la llamada o te pueda marcar con anterioridad enviando
+  una propuesta de horario que quede más cerca\, Muchas gracias por tu tiemp
+ o y espero hablar pronto.\n\nSi de pronto prefieres una video llamada\, por
+  favor avísame para poderlo ajustar.\n\n\nLindo día.\n\nLocation: +57 311 2
+ 514460\n\nNeed to make changes to this event?\nCancel: https://calendly.com
+ /cancellations/e89e7473-8699-4acc-9dd6-8439ee87e670\nReschedule: https://ca
+ lendly.com/reschedulings/e89e7473-8699-4acc-9dd6-8439ee87e670\n\nPowered by
+  Calendly.com\n
+LAST-MODIFIED:20230918T170523Z
+LOCATION:+57 311 2514460
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Camilo Barrantes and Laura Ramos
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

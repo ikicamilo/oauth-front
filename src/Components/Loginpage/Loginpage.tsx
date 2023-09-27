@@ -9,10 +9,10 @@ export default function Loginpage() {
     window.open(`${process.env.REACT_APP_API_URL}/auth/google`, "_self");
   };
   const githubLogin = () => {
-    // window.open(`${process.env.REACT_APP_API_URL}/auth/github`, "_self");
+    window.open(`${process.env.REACT_APP_API_URL}/auth/github`, "_self");
   };
   const twitterLogin = () => {
-    window.open(`${process.env.REACT_APP_API_URL}/auth/twitter`, "_self");
+    window.location.href = "http://localhost:4000/auth/twitter";
   };
 
   return (
