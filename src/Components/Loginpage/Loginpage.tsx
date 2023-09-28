@@ -12,7 +12,7 @@ export default function Loginpage() {
     window.open(`${process.env.REACT_APP_API_URL}/auth/github`, "_self");
   };
   const twitterLogin = () => {
-    window.location.href = "http://localhost:4000/auth/twitter";
+    window.location.href = `${process.env.REACT_APP_API_URL}/auth/twitter`;
   };
 
   return (
